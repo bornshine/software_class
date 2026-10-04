@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 密钥与本机配置：只提交 .env.example
+.env
+.env.*
+!.env.example
+
+# 工具缓存
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 运行时产物
+agent_graph.mmd
+*.log
+
+# 编辑器
+.vscode/
+.idea/

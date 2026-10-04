@@ -1,0 +1,7 @@
+# 运行依赖（已在 Python 3.14 + 下列版本上验证通过）
+# 注意：这里刻意写上界，避免大版本升级后 API 变动导致「今天能跑明天崩」
+langgraph>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+python-dotenv>=1.0,<2.0
+rich>=13.0,<16.0
